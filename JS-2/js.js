@@ -23,7 +23,7 @@ function BackSpace(){
 
 function Change(){ 
   var value=document.querySelector(".changer").value;
-  body.style.backgroundColor=value
+  
   body.setAttribute('class',value)
 }
 
